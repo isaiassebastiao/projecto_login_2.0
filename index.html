@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+     <link rel="shortcut icon" href="imagens/login_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" type="image/x-icon">
+     <link rel="stylesheet" href="estilos/style.css">
+     <link rel="stylesheet" href="estilos/mq.css">
+</head>
+<body>
+    <main>
+        <section class="form">
+            <div class="foto"></div>
+            <div class="abt">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a). Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <div>
+                    <form action="cadastro.php" method="post" autocomplete="on">
+                    <div class="enter">
+                        <input type="email" name="Email" id="iemail" required minlength="20" placeholder="seu email">
+                    </div>
+                    <div class="enter">
+                        <input type="password" name="Senha" id="isenha" required minlength="8" placeholder="sua senha">
+                    </div>
+                    <div id="en">
+                        <input type="submit" value="Login">
+                        <input type="button" value="Esqueci a Senha :(">
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
